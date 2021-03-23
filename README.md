@@ -1,2 +1,2 @@
 # Tecnologias Para La Integracion De Soluciones
-Primera versión de calculadora con Spring Boot
+Actividades calculadora copiada, calculadora completa, cliente visto en clase
