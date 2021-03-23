@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cliente</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div class="w3-container w3-light-blue">
+        <h2>Calculadora</h2>
+    </div><br>
+    <form class="w3-container" action="">
+        <label class="w3-monospace" for="a">Numero a</label>
+        <input class="w3-input" type="text" id="a" placeholder="Ingrese un numero"><br><br>
+        <label class="w3-monospace" for="b">Numero b</label>
+        <input class="w3-input" type="text" id="b" placeholder="Ingrese un numero"><br><br>
+        <label class="w3-monospace" for="">Resultado</label>
+        <input class="w3-input" type="text" id="r"><br><br>
+        <input class="w3-btn w3-gray" type="button" value="Hacer peticion" onclick="soap()">
+    </form>
+
+    <script src="soap.js"></script>
+</body>
+</html>
