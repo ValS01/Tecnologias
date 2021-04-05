@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+	targetNamespace="http://www.example.org/torneo" 
+	xmlns:tns="http://www.example.org/torneo" 
+	elementFormDefault="qualified">
+	<element name="JugadorRequest">
+		<complexType>
+			<sequence>
+				<element name="nombre" type="string"></element>
+				<element name="apellidos" type="string"></element>
+				<element name="edad" type="string"></element>
+			</sequence>
+		</complexType>
+	</element>
+	<element name="JugadorResponse">
+		<complexType>
+			<sequence>
+				<element name="respuesta"></element>
+			</sequence>
+		</complexType>
+	</element>
+  
+  <element name="EditarJugadorRequest">
+		<complexType>
+			<sequence>
+				<element name="nombre" type="string"></element>
+				<element name="apellidos" type="string"></element>
+				<element name="edad" type="string"></element>
+			</sequence>
+		</complexType>
+	</element>
+	<element name="EditarJugadorResponse">
+		<complexType>
+			<sequence>
+				<element name="respuesta"></element>
+			</sequence>
+		</complexType>
+	</element>
+
+  <element name="EliminarJugadorRequest">
+		<complexType>
+			<sequence>
+				<element name="nombre" type="string"></element>
+				<element name="apellidos" type="string"></element>
+			</sequence>
+		</complexType>
+	</element>
+	<element name="EliminarJugadorResponse">
+		<complexType>
+			<sequence>
+				<element name="respuesta"></element>
+			</sequence>
+		</complexType>
+	</element>
+
+  <element name="MostrarJugadorRequest">
+		<complexType>
+			<sequence>
+				<element name="nombre" type="string"></element>
+			</sequence>
+		</complexType>
+	</element>
+  <element name="MostrarJugadorResponse">
+		<complexType>
+			<sequence>
+				<element name="respuesta"></element>
+			</sequence>
+		</complexType>
+	</element>
+
+  <element name="EquipoRequest">
+		<complexType>
+			<sequence>
+				<element name="nombre" type="string"></element>
+        <element name="icono" type="string"></element>
+			</sequence>
+		</complexType>
+	</element>
+  <element name="EquipoResponse">
+		<complexType>
+			<sequence>
+				<element name="respuesta"></element>
+			</sequence>
+		</complexType>
+	</element>
+
+  <element name="EditarEquipoRequest">
+		<complexType>
+			<sequence>
+				<element name="nombre" type="string"></element>
+        <element name="icono" type="string"></element>
+			</sequence>
+		</complexType>
+	</element>
+  <element name="EditarEquipoResponse">
+		<complexType>
+			<sequence>
+				<element name="respuesta"></element>
+			</sequence>
+		</complexType>
+	</element>
+
+  <element name="EliminarEquipoRequest">
+		<complexType>
+			<sequence>
+				<element name="nombre" type="string"></element>
+			</sequence>
+		</complexType>
+	</element>
+  <element name="EliminarEquipoResponse">
+		<complexType>
+			<sequence>
+				<element name="respuesta"></element>
+			</sequence>
+		</complexType>
+	</element>
+
+  <element name="MostrarEquipoRequest">
+		<complexType>
+			<sequence>
+				<element name="nombre" type="string"></element>
+			</sequence>
+		</complexType>
+	</element>
+  <element name="MostrarEquipoResponse">
+		<complexType>
+			<sequence>
+				<element name="respuesta"></element>
+			</sequence>
+		</complexType>
+	</element>
+
+</schema>
